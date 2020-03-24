@@ -1,6 +1,6 @@
 clc;close all;clear all
 
-diasFuturos = 10; %Cuantos días en el futuro tomará la simulación
+diasFuturos = 9; %Cuantos días en el futuro tomará la simulación
 diaInicial = 6; %Este valor solo tiene efecto en el label de la gráfica y no en el modelo. El modelo comienza en día 0. Toma 6 para que sea 6 de marzo.
 
 DatosNInfectados = [1 1 1 3 3 9 13 16 24 45 57 75 93 108 145 210 235]; %Vector de datos con el número de infectados diarios desde el 6 de marzo hasta el 22 de marzo
