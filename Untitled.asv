@@ -1,0 +1,8 @@
+
+a = "[";
+for i=1:size(DatosNInfectados,2)
+    a = a +"{ x: " + iDatosNInfectados(i) + ", ";
+    
+end
+
+disp(a)
